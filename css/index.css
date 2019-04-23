@@ -1,0 +1,159 @@
+.main{
+    background: #f1f2f6;
+}
+/* banner */
+.screen{
+    width: 100%;
+    height: 550px;
+    position: relative;
+}
+.screen .active{
+    display: block;
+}
+.screen>ul>li{
+    width: 100%;
+    height: 550px;
+    position: absolute;
+    display: none;
+}
+.screen>ul>li>img{
+    position: absolute;
+}
+.screen .one{
+    top: 40%;
+    left: 40%;
+}
+.screen .two{
+    top: 60%;
+    left: 43%;
+}
+.screen .three{
+    top: 70%;
+    left: 42%;
+}
+.screen .four{
+    top: 25%;
+    left: 10%;
+}
+.screen .five{
+    top: 10%;
+    left: 25%;
+}
+.screen .six{
+    top: 32%;
+    left: 25%;
+}
+/* ol */
+.screen>ol{
+    width: 120px;
+    padding-left: 79px;
+    position: absolute;
+    bottom: 40px;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.screen>ol .left , .screen>ol .right , .arrow>.left , .arrow>.right , .team-content .left , .team-content .right{
+    position: absolute;
+    width: 29px;
+    height: 29px;
+    background: url(../images/icon/swiper-course-arrow-left.png) no-repeat;
+    cursor: pointer;
+    top: -8px;
+}
+.screen>ol .left , .arrow>.left , .team-content .left{
+    left: 0;
+}
+.screen>ol .right , .arrow>.right , .team-content .right{
+    right: 0;
+    background-image: url(../images/icon/swiper-course-arrow-right.png);
+}
+.screen>ol .left:hover , .arrow>.left:hover , .team-content .left:hover{
+    background-image: url(../images/icon/swiper-course-arrow-left.png);
+}
+.screen>ol .right:hover , .arrow>.right:hover , .team-content .right:hover{
+    background-image: url(../images/icon/swiper-course-arrow-right.png);
+}
+/* 棋牌游戏 */
+.qipai{
+    height: 800px;
+    background: white;
+    position: relative;
+}
+.doudizhu{
+    width: 100%;
+    height: 100%;
+    background: url(../images/bg/index-qpgame.jpg) no-repeat -400px 0;
+}
+.qipaiyouxi{
+    position: absolute;
+    top: 20%;
+    left: 26%;
+}
+.zhuanzhu{
+    font-size: 18px;
+    color: #A2A2A2;
+    padding-top: 20%;
+    padding-left: 23%;
+    font-family: "Microsoft yahei";
+}
+.borther{
+    color: #727272;
+    font-family: "Microsoft yahei";
+    text-indent:2em;
+    line-height: 30px;
+    padding-top: 5%;
+    padding-left: 5%;
+}
+.laotou{
+    width: 550px;
+    height: 600px;
+    position: absolute;
+    right: 0;
+    top: 10%;
+}
+.more p{
+    width: 100px;
+    padding: 10px;
+    padding-left: 15px;
+    border: 1px solid;
+}
+.more img{
+    margin-left: 5px;
+    margin-top: 5px;
+}
+.more{
+    position: absolute;
+    top: 60%;
+    left: 13.5%;
+}
+.video{
+    width: 1349px;
+    height: 865px;
+    background: url(../images/bg/index-spzb.jpg) no-repeat -400px;
+}
+.live>.shipin{
+    padding-top: 100px;
+    padding-left: 450px;
+}
+.live p>span{
+    color: white;
+    line-height: 100px;
+    padding-left: 415px;
+}
+.lol{
+    position: relative;
+}
+.xiuchangzhi{
+    width: 105px;
+    height: 105px;
+    background: white;
+}
+.xiuchangzhibo{
+    position: absolute;
+    width: 45px;
+    height: 49px;
+    background: url(../images/icon/index-video.png) no-repeat -28px -25px;
+    top: 0;
+    left: 8%;
+}

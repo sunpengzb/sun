@@ -1,0 +1,67 @@
+/*  */
+.header{
+    width: 100%;
+    height: 70px;
+    background: white;
+}
+.header .logo{
+    width: 196px;
+    height: 37px;
+    background: url(../images/aw-logo.png) no-repeat;
+    text-indent: -9999em;
+    margin-top: 16.5px
+}
+.header .nav{
+    font-size: 14px;
+    padding-top: 22px;
+}
+.first-list>li{
+    float: left;
+    position: relative;
+    cursor: pointer;
+}
+.first-list>li>a{
+    display: inline-block;
+    color: black;
+    padding: 5px 10px;
+}
+.first-list>li>a:hover{
+    color: skyblue;
+}
+.first-list>li>span{
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    vertical-align: top;
+}
+/* second-list */
+.nav .second-list{
+    position: absolute;
+    width: 120%;
+    background: #37274B;
+    left: -10%;
+    display: none;
+    z-index: 10;
+}
+.second-list>li{
+    position: relative;
+}
+.second-list>li>a{
+    display: inline-block;
+    color: skyblue;
+    text-align: center;
+    line-height: 40px;
+    margin-left: -20px;
+}
+.second-list>li>span{
+    position: absolute;
+    width: 5px;
+    height: 8px;
+    right: 10px;
+    top: 16px;
+    display: none;
+}
+.second-list>li:hover a{
+    background: #039DE9;
+    margin: 0;
+}
